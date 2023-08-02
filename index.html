@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="nav-menu">
+    <img src="./images/icon-menu.svg" alt="menu" id="ham-menu">
+    <img src="./images/logo.svg" alt="logo">
+    <div class="menu">
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+  <div class="acc-menu">
+    <img src="./images/icon-cart.svg" alt="cart" id="cart-icon">
+    <img src="./images/image-avatar.png" alt="avatar" id="avatar">
+  </div>
+</header>
+<hr>
+<main>
+  <div class="prod-images">
+    <div class="main-image">
+      <img src="./images/image-product-1.jpg" alt="sneakers">
+      <img src="./images/icon-previous.svg" alt="previous" id="prev-img">
+      <img src="./images/icon-next.svg" alt="next" id="next-img">
+    </div>
+    <div class="thum-images">
+      <img src="./images/image-product-1-thumbnail.jpg" alt="sneakers" class="active-image">
+      <img src="./images/image-product-2-thumbnail.jpg" alt="sneakers">
+      <img src="./images/image-product-3-thumbnail.jpg" alt="sneakers">
+      <img src="./images/image-product-4-thumbnail.jpg" alt="sneakers">
+    </div>
+  </div>
+  <div class="prod-details">
+    <strong>Sneaker Company</strong>
+    <h2 id="prod-title">Fall Limited Edition Sneakers</h2>
+    <p>
+      These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.
+    </p>
+    <div class="prod-price">
+        <h3>$ <span id="prod-amt">125.00</span></h3>
+        <h5>50%</h5>
+        <p>$250.00</p>
+    </div>
+    <div class="add-cart">
+      <div class="qty">
+        <img src="./images/icon-minus.svg" alt="reduce" id="reduce">
+        <small>0</small>
+        <img src="./images/icon-plus.svg" alt="increase" id="increase">
+      </div>
+      <div class="add-to-cart">
+        <button id="cart-btn">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://www.upandstart.tech">Adnan Hamisi</a>.
+</footer>
+<script src="./app.js"></script>
+</body>
+</html>
